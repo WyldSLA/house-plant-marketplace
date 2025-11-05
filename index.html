@@ -9,114 +9,161 @@
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
 </head>
 <body>
+    <!-- Header -->
     <header class="header-container">
-
         <div class="logo-container">
             <img src="assets/house-plants.png" alt="Logo House Plant" width="50" class="logo-img">
             <h1 class="title-logo">House Plant</h1>
         </div>
-
         <nav class="nav-menu">
             <ul class="nav-itens">
                 <li><a href="#catalogo" class="item-link">Catálogo</a></li>
                 <li><a href="#carrinho" class="item-link">Carrinho</a></li>
                 <li><a href="#sobre" class="item-link">Sobre</a></li>
+                <li><a href="#depoimentos" class="item-link">Depoimentos</a></li>
+                <li><a href="#contato" class="item-link">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <!-- Seção principal -->
-        <section class="hero">
-            <div class="hero-content">
-                <h2>O verde que transforma seu lar 🌿</h2>
-                <p>Plantas selecionadas para trazer leveza, harmonia e vida aos seus espaços.</p>
-                <a href="#catalogo" class="btn btn-hero">Explorar Catálogo</a>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>O verde que transforma seu lar 🌿</h2>
+            <p>Plantas selecionadas para trazer leveza, harmonia e vida aos seus espaços.</p>
+            <a href="#catalogo" class="btn btn-hero">Explorar Catálogo</a>
+        </div>
+    </section>
+
+    <!-- Catálogo -->
+    <section id="catalogo" class="catalogo elegante">
+        <h2 class="section-title">Catálogo de Plantas</h2>
+        <div class="produtos-container">
+            <div class="card-produto">
+                <img src="https://i.pinimg.com/736x/69/87/94/6987949ae3a4f237d30cd2aa9c2da075.jpg" alt="Samambaia" class="produto-img">
+                <div class="card-body">
+                    <h3>Samambaia</h3>
+                    <p>Leve e elegante, perfeita para interiores com pouca luz.</p>
+                    <span class="preco">R$ 29,90</span>
+                    <button class="btn btn-add">Adicionar ao carrinho</button>
+                </div>
             </div>
-        </section>
 
-        <!-- Catálogo -->
-        <section id="catalogo" class="catalogo">
-            <h2 class="section-title">Catálogo de Plantas</h2>
-            <div class="produtos-container">
-                <div class="card-produto">
-                    <img src="https://i.pinimg.com/736x/69/87/94/6987949ae3a4f237d30cd2aa9c2da075.jpg" alt="Samambaia" class="produto-img">
-                    <div class="card-body">
-                        <h3>Samambaia</h3>
-                        <p>Leve e elegante, perfeita para interiores com pouca luz.</p>
-                        <span class="preco">R$ 29,90</span>
-                        <button class="btn btn-add">Adicionar ao carrinho</button>
-                    </div>
+            <div class="card-produto">
+                <img src="https://i.pinimg.com/736x/65/95/0e/65950ec95bfd42e3200469d3724a1b1e.jpg" alt="Suculenta" class="produto-img">
+                <div class="card-body">
+                    <h3>Suculenta</h3>
+                    <p>Minimalista e charmosa, requer poucos cuidados.</p>
+                    <span class="preco">R$ 19,90</span>
+                    <button class="btn btn-add">Adicionar ao carrinho</button>
                 </div>
-
-                <div class="card-produto">
-                    <img src="https://i.pinimg.com/736x/65/95/0e/65950ec95bfd42e3200469d3724a1b1e.jpg" alt="Suculenta" class="produto-img">
-                    <div class="card-body">
-                        <h3>Suculenta</h3>
-                        <p>Minimalista e charmosa, requer poucos cuidados.</p>
-                        <span class="preco">R$ 19,90</span>
-                        <button class="btn btn-add">Adicionar ao carrinho</button>
-                    </div>
-                </div>
-
-                <div class="card-produto">
-                    <img src="https://i.pinimg.com/736x/ca/85/52/ca8552b623fb364d930842333d8e8c5f.jpg" alt="Lírio da Paz" class="produto-img">
-                    <div class="card-body">
-                        <h3>Lírio da Paz</h3>
-                        <p>Purifica o ar e traz um toque de elegância natural.</p>
-                        <span class="preco">R$ 39,90</span>
-                        <button class="btn btn-add">Adicionar ao carrinho</button>
-                    </div>
-                </div>
-                <div class="card-produto">
-                    <img src="https://i.pinimg.com/736x/f0/9c/2f/f09c2f64df56d3c7380218611625dc40.jpg" alt="Samambaia" class="produto-img">
-                    <div class="card-body">
-                        <h3>Costela de Adão</h3>
-                        <p>Leve e elegante, perfeita para interiores com pouca luz.</p>
-                        <span class="preco">R$ 39,90</span>
-                        <button class="btn btn-add">Adicionar ao carrinho</button>
-                    </div>
-                </div>
-
-                <div class="card-produto">
-                    <img src="https://i.pinimg.com/736x/32/02/af/3202af40ed959224905f9265c1b8c8cf.jpg" alt="Suculenta" class="produto-img">
-                    <div class="card-body">
-                        <h3>Espada-de-São-Jorge</h3>
-                        <p>Excelente purificadora de ar</p>
-                        <span class="preco">R$ 19,90</span>
-                        <button class="btn btn-add">Adicionar ao carrinho</button>
-                    </div>
-                </div>
-
-                <div class="card-produto">
-                    <img src="https://i.pinimg.com/736x/cf/6e/bc/cf6ebc0a4ffdbfa14fc2f1c9d6bd9507.jpg" alt="Lírio da Paz" class="produto-img">
-                    <div class="card-body">
-                        <h3>Jiboia</h3>
-                        <p>É muito resistente, tolerando bem pouca luz e intervalos longos entre regas.</p>
-                        <span class="preco">R$ 39,90</span>
-                        <button class="btn btn-add">Adicionar ao carrinho</button>
-                    </div>
-                </div>                
             </div>
-        </section>
 
-        <!-- Sobre -->
-        <section id="sobre" class="sobre">
-            <h2 class="section-title">Sobre Nós</h2>
-            <p>
-                Na <strong>House Plant</strong>, acreditamos que o verde é mais que decoração —  
-                é um estilo de vida. Nossas plantas são cultivadas com carinho para transformar
-                o seu lar em um espaço mais acolhedor e saudável.
-            </p>
-        </section>
-    </main>
+            <div class="card-produto">
+                <img src="https://i.pinimg.com/736x/ca/85/52/ca8552b623fb364d930842333d8e8c5f.jpg" alt="Lírio da Paz" class="produto-img">
+                <div class="card-body">
+                    <h3>Lírio da Paz</h3>
+                    <p>Purifica o ar e traz um toque de elegância natural.</p>
+                    <span class="preco">R$ 39,90</span>
+                    <button class="btn btn-add">Adicionar ao carrinho</button>
+                </div>
+            </div>
 
-    <footer class="footer">
-        <p>&copy; 2025 House Plant | Feito com 💚 e natureza</p>
-        <div class="social">
-            <a href="#">Instagram</a>
-            <a href="#">Facebook</a>
-            <a href="#">WhatsApp</a>
+            <div class="card-produto">
+                <img src="https://i.pinimg.com/736x/f0/9c/2f/f09c2f64df56d3c7380218611625dc40.jpg" alt="Costela de Adão" class="produto-img">
+                <div class="card-body">
+                    <h3>Costela de Adão</h3>
+                    <p>Leve e elegante, perfeita para interiores com pouca luz.</p>
+                    <span class="preco">R$ 39,90</span>
+                    <button class="btn btn-add">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card-produto">
+                <img src="https://i.pinimg.com/736x/32/02/af/3202af40ed959224905f9265c1b8c8cf.jpg" alt="Espada-de-São-Jorge" class="produto-img">
+                <div class="card-body">
+                    <h3>Espada-de-São-Jorge</h3>
+                    <p>Excelente purificadora de ar.</p>
+                    <span class="preco">R$ 19,90</span>
+                    <button class="btn btn-add">Adicionar ao carrinho</button>
+                </div>
+            </div>
+
+            <div class="card-produto">
+                <img src="https://i.pinimg.com/736x/cf/6e/bc/cf6ebc0a4ffdbfa14fc2f1c9d6bd9507.jpg" alt="Jiboia" class="produto-img">
+                <div class="card-body">
+                    <h3>Jiboia</h3>
+                    <p>É muito resistente, tolerando bem pouca luz e intervalos longos entre regas.</p>
+                    <span class="preco">R$ 39,90</span>
+                    <button class="btn btn-add">Adicionar ao carrinho</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="sobre elegante">
+        <div class="sobre-container">
+            <div class="sobre-texto">
+                <h2 class="section-title">Nossa Essência</h2>
+                <p>Na <strong>House Plant</strong>, acreditamos que o verde é poesia viva — um toque de calma em meio ao cotidiano. Cada planta é cultivada com dedicação, refletindo nosso amor pela natureza e pelo equilíbrio que ela traz aos lares.</p>
+                <p>Mais do que vender plantas, compartilhamos o propósito de transformar espaços em refúgios de bem-estar e harmonia. 🌱</p>
+            </div>
+            <div class="sobre-imagem">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Plantas decorativas">
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="depoimentos elegante">
+        <h2 class="section-title">Palavras Que Florescem</h2>
+        <div class="depoimentos-container">
+            <div class="card-depoimento">
+                <p>“Minhas plantas chegaram impecáveis! É visível o cuidado e carinho em cada detalhe.”</p>
+                <span>— Ana Clara • São Paulo</span>
+            </div>
+            <div class="card-depoimento">
+                <p>“A House Plant transformou minha varanda. Um pedacinho da natureza dentro de casa.”</p>
+                <span>— Lucas Ferreira • Belo Horizonte</span>
+            </div>
+            <div class="card-depoimento">
+                <p>“Serviço excelente e plantas deslumbrantes. Já recomendei a todos os meus amigos.”</p>
+                <span>— Juliana Santos • Curitiba</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato elegante">
+        <div class="contato-container">
+            <h2 class="section-title">Conecte-se Conosco</h2>
+            <p>Quer levar mais verde para o seu lar? Estamos prontos para te ajudar a escolher a planta perfeita.</p>
+
+            <form class="form-contato">
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu e-mail" required>
+                <textarea placeholder="Sua mensagem" rows="5" required></textarea>
+                <button type="submit" class="btn">Enviar mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer elegante">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/house-plants.png" alt="House Plant" width="50">
+                <h3>House Plant</h3>
+            </div>
+            <p class="footer-desc">Cuidar de plantas é cuidar de si mesmo. Traga o equilíbrio da natureza para dentro do seu lar. 🌿</p>
+
+            <div class="social">
+                <a href="#" title="Instagram"><img src="assets/icons8-instagram-50.png" alt="Instagram" width="22"></a>
+                <a href="#" title="Facebook"><img src="assets/facebook-app-symbol.png" alt="Facebook" width="22"></a>
+                <a href="#" title="WhatsApp"><img src="assets/whatsapp.png" alt="WhatsApp" width="22"></a>
+            </div>
+            <p class="footer-copy">&copy; 2025 House Plant — Feito com amor e natureza.</p>
         </div>
     </footer>
 </body>
